@@ -15,11 +15,9 @@ main (){
 	cout<<"Digite um numero: ";
     cin>>num;
 
-       if (num == 1) {
-    	cout<<"\n Batata";
-        
-       }else 
-	    cout<<"Digite um numero: ";
-    	cin>>num;
+       int i;
+		for(i = 1; i <= 5; i++){
+	cout<<"\n Batata"<< i;
+}
 	  
    	}
